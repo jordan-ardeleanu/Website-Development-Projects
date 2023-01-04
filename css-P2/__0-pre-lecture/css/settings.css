@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Serif:wght@400;700&display=swap');
+
+:root {
+  --heading-font: 'Noto Serif', serif;
+  --body-font: 'Lato', sans-serif;
+  --primary-color: #704214; /* rgba(44, 26, 8, 1) */
+  --border-radius: 4px;
+  --border-color: rgba(44, 26, 8, 0.2);
+}

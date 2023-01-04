@@ -1,0 +1,30 @@
+html,
+body,
+div,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: Poppins;
+}
+
+div {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(imgs/bg.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+p {
+    color: white;
+}

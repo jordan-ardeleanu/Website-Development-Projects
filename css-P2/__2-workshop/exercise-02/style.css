@@ -1,0 +1,46 @@
+html,
+body,
+div,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+ font-family: Poppins;
+}
+
+nav {
+    background-color: #3a3633;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 0px 30px 0px 30px;
+}
+
+a:hover{
+    color: darkgrey;
+    transition: all;
+}
+
+img:hover{
+    opacity: 0.7;
+}

@@ -1,0 +1,47 @@
+html,
+body,
+div,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+ font-family: Poppins;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+
+}
+
+button{
+  background-color: white;
+  border: 1px black;
+  border-style: inset;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5%;
+  margin-top: 20px;
+}
+
+h1{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+p {
+  max-width: 380px;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}

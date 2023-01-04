@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Book a Taxi</title>
+  </head>
+  <body>
+    <main>
+      <div class=""></div>
+      <div class="">
+        <h1>Registration form</h1>
+        <form>
+          <div class="">
+            <h2>Personal Information</h2>
+            <div class="">
+              <div class="">
+                <label for="firstname">First Name</label>
+                <input
+                  id="firstname"
+                  name="firstname"
+                  type="text"
+                  placeholder="Your first name"
+                />
+              </div>
+              <div class="">
+                <label for="lastname">Last Name</label>
+                <input
+                  id="lastname"
+                  name="lastname"
+                  type="text"
+                  placeholder="Your last name"
+                />
+              </div>
+            </div>
+            <div class="">
+              <label for="email">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="Your email"
+              />
+            </div>
+          </div>
+          <div class="">
+            <h2>Which taxi do you require?</h2>
+            <div class="">
+              <label>
+                <input type="radio" name="car" value="car" checked />
+                Car
+              </label>
+              <label>
+                <input type="radio" name="van" value="van" />
+                Van
+              </label>
+              <label>
+                <input type="radio" name="tuktuk" value="tuktuk" />
+                Tuk Tuk
+              </label>
+            </div>
+          </div>
+          <div class="">
+            <h2>Choose your extras</h2>
+            <div class="">
+              <label>
+                <input type="checkbox" name="baby-seat" value="baby-seat" />
+                Baby seat
+              </label>
+              <label>
+                <input type="checkbox" name="wheelchair" value="wheelchair" />
+                Wheelchair access
+              </label>
+              <label>
+                <input type="checkbox" name="privacy" value="privacy" />
+                Privacy windows
+              </label>
+            </div>
+          </div>
+          <div class="">
+            <div class="">
+              <h2>Pick you Location</h2>
+              <label for="pickup">Choose location:</label>
+              <select class="" name="pickup">
+                <option value="null" selected>Select One</option>
+                <option value="taxi-office">Taxi Office</option>
+                <option value="town-hall">Town Hall</option>
+                <option value="hotel">Hotel</option>
+              </select>
+            </div>
+          </div>
+          <div class="">
+            <h2>Additional Instructions</h2>
+            <div class="">
+              <label for="special">Provide Instructions</label>
+              <textarea
+                class=""
+                name="special"
+                placeholder="provide special instructions here"
+              ></textarea>
+            </div>
+          </div>
+          <button class="">Submit</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
