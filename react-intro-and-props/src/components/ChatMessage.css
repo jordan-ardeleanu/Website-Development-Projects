@@ -1,0 +1,49 @@
+
+.chat-message {
+    margin: 25px 10px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.images {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.names {
+    font-size: 1em;
+    margin: 0;
+    color: #000;
+    font-weight: bolder;
+}
+
+.body {
+    background-color: #e9e9eb;
+    height: 35px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.sentBody {
+    background-color: dodgerblue;
+    color: white;
+    height: 35px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.chat-message-sent {
+    margin: 25px 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
