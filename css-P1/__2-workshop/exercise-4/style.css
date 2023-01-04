@@ -1,0 +1,32 @@
+h1,
+p,
+h2 {
+  background: grey;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+div {
+  background-color: gray;
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+
+.centered{
+  text-align: center;
+}
+
+.monospaced {
+  text-decoration: underline;
+  background: grey;
+  font-family: monospace;
+}
+
+.monospaced > h2 {
+  font-size: small;
+}

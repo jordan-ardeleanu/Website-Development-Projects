@@ -1,0 +1,58 @@
+/* minor CSS reset */
+/* You should not need to change anything here */
+html,
+body,
+div,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* ADD CSS BELOW */
+
+body {
+  width: auto;
+  height: auto;
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-family: "Bangers", cursive;
+  margin: 15px 0 15px 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+li {
+  list-style: none;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.col {
+  width:auto;
+  border: 1px;
+  border-style: dashed;
+  margin: 0 50px 0 50px;
+  background-color: lightgray;
+}
+
+.image {
+  max-width: 300px;
+  max-height: 150px;
+  margin: 0 10px 10px 10px;
+}

@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    text-align: center;
+}
+
+h1{
+    font-size: larger;
+    font-style: normal;
+}
+
+p {
+    font-family: "Comic Sans MS";
+    font-size: medium;
+}
+
+.content{
+    text-align: left;
+    font-size: small;
+}
+
+.emph{
+    font-style: italic;
+}
