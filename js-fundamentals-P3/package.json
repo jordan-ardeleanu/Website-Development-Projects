@@ -1,0 +1,26 @@
+{
+  "name": "m2-2-js--fundamentals-p2",
+  "version": "1.0.0",
+  "description": "the fundamentals of JavaScript!",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --noStackTrace"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/journey-education/m2-1-js--fundamentals-P1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/journey-education/m2-1-js--fundamentals-P1/issues"
+  },
+  "homepage": "https://github.com/journey-education/m2-1-js--fundamentals-P1#readme",
+  "dependencies": {
+    "jest": "^26.1.0"
+  },
+  "jest": {
+    "verbose": true,
+    "clearMocks": true
+  }
+}
