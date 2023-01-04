@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link
+    href="https://fonts.googleapis.com/css?family=Jost:400,700&display=swap"
+    rel="stylesheet"
+    />
+
+    <title>Signup Form</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <form name="fullForm">
+        <h1>Signup Form</h1>
+        <div class="fields">
+          <div class="full-name">
+            <label>Full name:</label>
+            <input type="text" id="fullName" required>
+          </div>
+          <div class="street-address">
+            <label>Street address:</label>
+            <input type="text" id="streetAddress" required>
+          </div>
+          <div class="email-address">
+            <label>Email address:</label>
+            <input type="email" id="emailAddress" required>
+          </div>
+          <div class="phone-number">
+            <label>Phone number:</label>
+            <input type="text" id="phoneNumber" required>
+          </div>
+          <div class="password">
+            <label>Password:</label>
+            <input type="password" id="password" name="pass1" required>
+          </div>
+          <div class="confirm-password">
+            <label>Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="pass2" required>
+          </div>
+        </div>
+        <div class="terms">
+          <input type="checkbox" id="termsOfService">
+          <label>I agree to the <a href="#">terms of sevice</a></label>
+        </div>
+        <div class="error" id="error"></div>
+        <footer>
+          <input type="reset" value="Clear">
+          <input type="submit" value="Submit" id="submit">
+        </footer>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
