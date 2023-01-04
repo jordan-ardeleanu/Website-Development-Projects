@@ -1,0 +1,31 @@
+{
+  "name": "m2-1-js--fundamentals-p1",
+  "version": "1.0.0",
+  "description": "Today we will be learning the fundamentals of JavaScript!",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --noStackTrace"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/journey-education/m2-1-js--fundamentals-P1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/journey-education/m2-1-js--fundamentals-P1/issues"
+  },
+  "homepage": "https://github.com/journey-education/m2-1-js--fundamentals-P1#readme",
+  "dependencies": {
+    "jest": "^26.1.0",
+    "jest-expect-message": "^1.0.2"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "jest-expect-message",
+      "<rootDir>/__tests__/__setupTests.js"
+    ],
+    "verbose": true,
+    "clearMocks": true
+  }
+}
